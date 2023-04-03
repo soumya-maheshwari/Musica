@@ -5,8 +5,10 @@ import Search from "../Search/Search";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Search />
+      <div className="home">
+        <Navbar />
+        <Search />
+      </div>
     </>
   );
 };

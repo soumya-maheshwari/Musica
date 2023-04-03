@@ -72,7 +72,7 @@ const SearchResults = () => {
             />
           </div>
           <div className="searchResults my-4">
-            <div className="container">
+            <div className="container" color="white">
               {" "}
               Results for
               <i>"{searchData.searchQuery}"</i>
