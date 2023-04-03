@@ -1,0 +1,34 @@
+.searchSection {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8em;
+  margin-top: 15em;
+  background-color: red;
+}
+
+#searchBox {
+  padding: 1em;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#searchQuery {
+  height: 2em;
+  width: 25vw;
+  font-weight: bold;
+  border: none;
+}
+
+#SearchIcon {
+  width: 2.4em;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+a#logo-Name {
+  font-weight: 10;
+}

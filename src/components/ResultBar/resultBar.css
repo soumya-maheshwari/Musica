@@ -1,0 +1,13 @@
+.song-result-bar-audio {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.sonTitle {
+  font-size: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.nav-box {
+  display: inline;
+  flex-direction: column;
+  width: 50%;
+  height: 40em;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+.heading {
+  color: black;
+  display: inline;
+  padding: 100px;
+  font-size: 35px;
+}
