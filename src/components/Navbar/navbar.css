@@ -1,19 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Montserrat:wght@300&family=Roboto&display=swap");
+
 .nav-box {
-  display: inline;
   flex-direction: column;
-  width: 50%;
+  /* width: 50%; */
   height: 40em;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  display: inline;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: plum;
+  border-radius: 60%;
+}
+.heading {
+  color: white;
+  /* display: inline; */
+  padding: 100px;
+  color: plum;
+  font-size: 40px;
 }
 
-.heading {
-  color: black;
-  display: inline;
-  padding: 100px;
-  font-size: 35px;
+.para {
+  flex-direction: column;
+  display: inline-block;
+  margin-left: 100px;
+  font-variant: small-caps;
+  color: plum;
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 90px;
+  /* height: 1000px; */
 }

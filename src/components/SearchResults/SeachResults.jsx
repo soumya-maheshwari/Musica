@@ -46,11 +46,16 @@ const SearchResults = () => {
       {data.loading && <Spinner />}
 
       {!data.loading && (
-        <div className="container">
+        <div
+          className="container fit-content"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
           <div id="searchBox">
-            <div id="SearchIcon">
-              <img src="Logo/sangeet Logo.png" alt="find" height="30px" />
-            </div>
+            <div id="SearchIcon"></div>
             <input
               style={{ width: "99%" }}
               id="searchQuery"
@@ -61,6 +66,7 @@ const SearchResults = () => {
               onClick={handleSearchedInput}
               style={{ cursor: "pointer" }}
               height="30px"
+              className="searchIcon"
               src="https://img.icons8.com/ios-filled/90/000000/arrow.png"
               alt=""
             />

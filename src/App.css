@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Montserrat:wght@300&family=Roboto&display=swap");
+
 .App {
   text-align: center;
+}
+
+* {
+  background-color: black;
+  /* background-image: url(https://images.unsplash.com/photo-1507676385008-e7fb562d11f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80); */
 }
