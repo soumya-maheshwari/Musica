@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Montserrat:wght@300&family=Roboto&display=swap");
 
-.nav-box {
+/* .nav-box {
   flex-direction: column;
-  /* width: 50%; */
+  width: 50%;
   height: 40em;
-}
+} */
 
 .logo {
   width: 150px;
@@ -29,9 +29,13 @@
   color: plum;
   font-family: "Delicious Handrawn", cursive;
   font-size: 90px;
-  /* height: 1000px; */
 }
 
+.tenor {
+  width: 200px;
+  height: 270px;
+  flex-direction: column;
+}
 @media (max-width: 767px) {
   .logo {
     width: 50px;
