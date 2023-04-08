@@ -7,18 +7,21 @@
 } */
 
 .logo {
-  width: 150px;
-  height: 150px;
+  margin-left: 80px;
+  margin-top: 90px;
+  width: 140px;
+  height: 190px;
   display: inline-block;
   background-color: plum;
   border-radius: 60%;
+  cursor: pointer;
 }
 .heading {
   color: white;
   /* display: inline; */
   padding: 40px;
   color: plum;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .para {
@@ -31,11 +34,16 @@
   font-size: 90px;
 }
 
-.tenor {
-  width: 200px;
-  height: 270px;
-  flex-direction: column;
+span {
+  color: plum;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
 }
+
 @media (max-width: 767px) {
   .logo {
     width: 50px;

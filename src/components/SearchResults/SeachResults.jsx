@@ -4,9 +4,8 @@ import ResultBar from "../ResultBar/ResultBar";
 import "./searchResults.css";
 import "../Search/search.css";
 import "../ResultBar/resultBar.css";
-import Search from "../Search/Search";
-import Spinner from "../Spinner";
-
+import loading from ".././../assets/loading.gif";
+import arrow from "../../assets/arrow.png";
 const SearchResults = () => {
   let results = [];
 
@@ -43,7 +42,7 @@ const SearchResults = () => {
 
   return (
     <div>
-      {data.loading && <Spinner />}
+      {data.loading}
 
       {!data.loading && (
         <div
@@ -54,6 +53,7 @@ const SearchResults = () => {
             flexDirection: "column",
           }}
         >
+          <img src={loading} alt="" height="140px" className="loading" />
           <div id="searchBox">
             <div id="SearchIcon"></div>
             <input
@@ -67,7 +67,7 @@ const SearchResults = () => {
               style={{ cursor: "pointer" }}
               height="30px"
               className="searchIcon"
-              src="https://img.icons8.com/ios-filled/90/000000/arrow.png"
+              src={arrow}
               alt=""
             />
           </div>

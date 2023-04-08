@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <h2 className="heading">
         Enjoy & Download Your Favourite Music For{" "}
-        <span style={{ color: "plum" }}>FREE 🎵🎵</span>
+        <span style={{ color: "plum" }}>FREE ☺☺</span>
       </h2>
     </div>
   );

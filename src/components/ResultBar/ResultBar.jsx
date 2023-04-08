@@ -11,13 +11,13 @@ const ResultBar = (props) => {
       >
         <div className="container SongResultBar">
           <div className="songImage">
-            <img src={props.songImgSrc} height="90px" alt="" />
+            <img src={props.songImgSrc} height="100px" alt="" />
           </div>
           <div className="songInfo">
             <div className="songTitle">{props.songTitle}</div>
             <div className="singers">
               {props.singers}
-              {"     "} || {"  "}
+              {"     "} ||{"  "}
               {props.duration}
             </div>
           </div>
